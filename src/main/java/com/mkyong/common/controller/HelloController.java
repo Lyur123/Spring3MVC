@@ -11,19 +11,7 @@ public class HelloController {
  
 	@RequestMapping(method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
- 		if  (variableLoca.isEmpty()) {
-			if  (variableLoca.isEmpty()) {
-				if  (variableLoca.isEmpty()) {
-					if  (variableLoca.isEmpty()) {
-						if  (variableLoca.isEmpty()) {
-							if  (variableLoca.isEmpty()) {
-								variableLoca= "HOLA";
-							}
-						}
-					}
-				}
-			}
-		}
+
 		model.addAttribute("message", "Spring Security Hello World");
 		return "hello";
  
